@@ -12,7 +12,7 @@ public class Discounts
         double cost = 4.25 * hours;
         // If parked for more than 3 hours, apply 25% discount
         if(hours > 3){
-            cost = (4.25 * hours) - (4.25 * hours* 0.25);
+            cost = 4.25 * hours * 0.75;
         }
         // If cost is under $7, set cost to $7
         if(cost < 7) {
